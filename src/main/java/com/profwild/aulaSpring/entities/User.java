@@ -19,12 +19,16 @@ public class User implements Serializable {
     public User() {
     }
     public User(Long id,String nome, String email, String phone, String password) {
+        super();
         this.id = id;
         this.Nome = nome;
         this.email = email;
         this.phone = phone;
         this.password = password;
     }
+
+
+
 
     public Long getId() {
         return id;
